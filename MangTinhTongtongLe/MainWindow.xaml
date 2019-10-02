@@ -1,0 +1,16 @@
+﻿<Window x:Class="MangTinhTongtongLe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MangTinhTongtongLe"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Kết quả" HorizontalAlignment="Left" Margin="70,93,0,0" VerticalAlignment="Top" FontSize="20" Width="171" Height="36"/>
+        <TextBox x:Name="txtketqua" HorizontalAlignment="Left" Height="36" Margin="264,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="260" FontSize="20"/>
+        <Button Name="btnTong" Content="Tổng" HorizontalAlignment="Left" Margin="173,214,0,0" VerticalAlignment="Top" Width="138" FontSize="20" Click="BtnTong_Click"/>
+        <Button Name="btnTongLe" Content="Tổng lẻ" HorizontalAlignment="Left" Margin="384,214,0,0" VerticalAlignment="Top" Width="158" FontSize="20" Click="BtnTongLe_Click"/>
+
+    </Grid>
+</Window>
